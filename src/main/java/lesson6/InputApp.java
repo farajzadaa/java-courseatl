@@ -25,7 +25,7 @@ public class InputApp {
 
     }
 
-    public static void main(String[] args) {
+    public static void mainV3(String[] args) {
         Scanner scan = new Scanner(System.in);
         String str = scan.nextLine();
         System.out.println(str.trim());
