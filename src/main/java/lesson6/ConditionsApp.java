@@ -9,6 +9,8 @@ public class ConditionsApp {
 
         if (a < 0) {
             System.out.println("Negative");
+        } else if (a ==0) {
+            System.out.println("zero");
         } else {
             System.out.println("positive");
         }
