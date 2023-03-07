@@ -16,28 +16,47 @@ public class Operator {
 //        System.out.println(b--);
 
 
-        // create variables
-        int a = 7, b = 11;
+//        // create variables
+//        int a = 7, b = 11;
+//
+//        // value of a and b
+//        System.out.println("a is " + a + " and b is " + b);
+//
+//        // == operator
+//        System.out.println(a == b);  // false
+//
+//        // != operator
+//        System.out.println(a != b);  // true
+//
+//        // > operator
+//        System.out.println(a > b);  // false
+//
+//        // < operator
+//        System.out.println(a < b);  // true
+//
+//        // >= operator
+//        System.out.println(a >= b);  // false
+//
+//        // <= operator
+//        System.out.println(a <= b);  // true
 
-        // value of a and b
-        System.out.println("a is " + a + " and b is " + b);
 
-        // == operator
-        System.out.println(a == b);  // false
+        // bir eded verilir cut olub olmamagini yoxlamag
+        // + hemin ededin 10dan boyuk olmamagini yoxlayirig
+        // cutdurse ve yaxud 3e tam bolunurse o zaman ekrana true veririy
 
-        // != operator
-        System.out.println(a != b);  // true
+        int i = 16;
+        boolean isEven = (i % 2) == 0;
+        System.out.println(isEven);
 
-        // > operator
-        System.out.println(a > b);  // false
+        boolean second = isEven && i > 10;
+        System.out.println(second);
 
-        // < operator
-        System.out.println(a < b);  // true
+        boolean third = isEven || (i % 3) == 0;
+        System.out.println(third);
 
-        // >= operator
-        System.out.println(a >= b);  // false
+        boolean fourth = !isEven && (i >= 10);
+        System.out.println(fourth);
 
-        // <= operator
-        System.out.println(a <= b);  // true
     }
 }
