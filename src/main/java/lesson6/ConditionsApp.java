@@ -55,12 +55,11 @@ public class ConditionsApp {
     }
 
     public static void main(String[] args) {
-        Scanner in = new Scanner((System.in));
+        System.out.println(1);
+        System.out.println(2);
+        System.out.println(3);
+        System.out.println(4);
+        System.out.println(5);
 
-        int a = in.nextInt();
-
-        if(a>=1 && a<=3){
-            System.out.println("");
-        }
     }
 }
