@@ -7,6 +7,6 @@ public class Array {
         Scanner scan = new Scanner(System.in);
         double a = scan.nextDouble();
 
-        System.out.printf("%.2f",a);
+        System.out.printf("%.2f", a);
     }
 }
