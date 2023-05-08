@@ -1,10 +1,10 @@
 package lesson15;
 
 public final class Person implements Comparable<Person> {
-    public int id;
-    public double salary;
-    public String name;
-    public int age;
+    public final  int id;
+    public final double salary;
+    public final String name;
+    public  final int age;
 
     public Person(int id, int age, String name,double salary) {
         this.id = id;
