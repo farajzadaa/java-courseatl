@@ -10,6 +10,6 @@ public class CustomPersonComporator implements Comparator<Person> {
         } else if (p1.age != p2.age) {
             return Integer.compare(p1.age, p2.age);
         }
-        return Double.compare(p1.salary, p2.salary);
+        return Double.compare(p2.salary, p1.salary);
     }
 }
