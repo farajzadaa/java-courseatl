@@ -6,11 +6,10 @@ public class ArrayListApp {
 
     public static void main(String[] args) {
 
-        ArrayList<Integer> myList = new ArrayList<Integer>();
+        ArrayList<Integer> myList = new ArrayList<>();
         myList.add(5);
         System.out.println(myList.size());
-        for (int i = 0; i < 10; i++)
-        {
+        for (int i = 0; i < 10; i++) {
             myList.add((int) (Math.random() * 100));
         }
         System.out.println(myList);
